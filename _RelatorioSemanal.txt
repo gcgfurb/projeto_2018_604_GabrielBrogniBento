@@ -1,6 +1,6 @@
-_______ Relatório Semanal _______ 
+﻿_______ Relatório Semanal _______ 
 
-Período __/__/__ a __/__/__
+Período 20/08/2018 a 24/08/2018 Foi lido a documentação do Unity 3D e assistido a video aulas.
 
 Período __/__/__ a __/__/__
 
