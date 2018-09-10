@@ -4,4 +4,4 @@ Período 20/08/2018 a 24/08/2018 Foi lido a documentação do Unity 3D e assisti
 
 Período 27/08/2018 a 31/08/2018 Foi definido os objetivos do trabalho, e decidido como fazer e o que utilizar de equipamentos e tecnologias. Em paralelo a isto, estudei sobre o LeapMotion, compilação para o Android e Multiplayer no Unity.
 
-Período __/__/__ a __/__/__
+Período 03/09/2018 a 06/09/2018 Foi feito programas testes para realidade virtual utilizando o RiftCat 2.0 e a steamVR, e programas testes para o LeapMotion, e um programa de teste que junta o VR com o LeapMotion.
