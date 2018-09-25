@@ -7,3 +7,10 @@ Período 27/08/2018 a 31/08/2018 Foi definido os objetivos do trabalho, e decidi
 Período 03/09/2018 a 06/09/2018 Foi feito programas testes para realidade virtual utilizando o RiftCat 2.0 e a steamVR, e programas testes para o LeapMotion, e um programa de teste que junta o VR com o LeapMotion.
 
 Período 10/09/2018 a 14/09/2018 Foi visto videos sobre o High-level multiplayer api da unity, e aperfeiçoado os projetos de testes ja existentes.
+
+Período 17/09/2018 a 21/09/2018 
+No dia 17/09: Participei de uma reunião para avaliar o desenvolvimento do jogo sobre desastres ambientais;
+No dia 18/09: Estudei sobre NavMesh no unity;
+No dia 19/09: Pratiquei, fazendo projetos de teste sobre movimentação utilizando o NavMesh;
+No dia 20/09: Assisti a apresentação de projetos da MIPE
+No dia 21/09: Li a documentação de boas praticas de programação da Unity
