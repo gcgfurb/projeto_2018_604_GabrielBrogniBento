@@ -1,7 +1,30 @@
-_______ Relatório Semanal _______ 
+﻿_______ Relatório Semanal _______ 
 
-Período __/__/__ a __/__/__
+Período 20/08/2018 a 24/08/2018 Foi lido a documentação do Unity 3D e assistido a video aulas.
 
-Período __/__/__ a __/__/__
+Período 27/08/2018 a 31/08/2018 Foi definido os objetivos do trabalho, e decidido como fazer e o que utilizar de equipamentos e tecnologias. Em paralelo a isto, estudei sobre o LeapMotion, compilação para o Android e Multiplayer no Unity.
 
-Período __/__/__ a __/__/__
+Período 03/09/2018 a 06/09/2018 Foi feito programas testes para realidade virtual utilizando o RiftCat 2.0 e a steamVR, e programas testes para o LeapMotion, e um programa de teste que junta o VR com o LeapMotion.
+
+Período 10/09/2018 a 14/09/2018 Foi visto videos sobre o High-level multiplayer api da unity, e aperfeiçoado os projetos de testes ja existentes.
+
+Período 17/09/2018 a 21/09/2018 
+No dia 17/09: Participei de uma reunião para avaliar o desenvolvimento do jogo sobre desastres ambientais;
+No dia 18/09: Estudei sobre NavMesh no unity;
+No dia 19/09: Pratiquei, fazendo projetos de teste sobre movimentação utilizando o NavMesh;
+No dia 20/09: Assisti a apresentação de projetos da MIPE;
+No dia 21/09: Li a documentação de boas praticas de programação da Unity.
+
+Período 24/09/2018 a 28/09/2018 
+No dia 24/09: Vi o tutorial sobre interface da Unity;
+No dia 25/09: Vi o tutorial sobre fisica da Unity;
+No dia 26/09: Participei ajudando na Interação;
+No dia 27/09:  Foi definido as atividades a curto prazo a serem feitas;
+No dia 28/09: Participei de uma reunião para avaliar o projeto de outro bolsista para poder definir o rumo do projeto.
+
+Período 01/09/2018 a 05/09/2018
+No dia 01/09: Criei um projeto multiplayer para teste para ser demonstrado;
+No dia 02/09: Pesquisei sobre boas praticas de programação na unity;
+No dia 03/09: Melhorei o projeto multiplayer, adicionando funcinalidades de animação, vida sincronizada e implementando algoritimo para seleção de armas em rede;
+No dia 04/09: Arrumei os bugs que o projeto de multiplayer tinha para a apresentação;
+No dia 05/09: Apresentação do projeto multiplayer para a turma de bolsistas.
