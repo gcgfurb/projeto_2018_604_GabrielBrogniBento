@@ -28,3 +28,10 @@ No dia 02/09: Pesquisei sobre boas praticas de programação na unity;
 No dia 03/09: Melhorei o projeto multiplayer, adicionando funcinalidades de animação, vida sincronizada e implementando algoritimo para seleção de armas em rede;
 No dia 04/09: Arrumei os bugs que o projeto de multiplayer tinha para a apresentação;
 No dia 05/09: Apresentação do projeto multiplayer para a turma de bolsistas.
+
+Período 08/09/2018 a 12/09/2018
+Comecei a trabalhar no projeto RecliAR, fiz as navMeshes, o controlador do pedestre, e o spawn de lixos pelo mundo.
+
+Período 15/09/2018 a 19/09/2018
+No dia 15/09: Testei um controlador para o caminhão de lixo;
+No dia 16/09: Terminei o controlador do caminhão para teclado, e comecei a mecher na parte de lobby;
