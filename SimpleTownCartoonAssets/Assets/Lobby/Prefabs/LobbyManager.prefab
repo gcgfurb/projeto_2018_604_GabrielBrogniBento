@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11447366}
   m_HandleRect: {fileID: 22495014}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3259,12 +3259,12 @@ MonoBehaviour:
   isNetworkActive: 0
   matchMaker: {fileID: 0}
   m_ShowLobbyGUI: 0
-  m_MaxPlayers: 3
-  m_MaxPlayersPerConnection: 2
-  m_MinPlayers: 2
+  m_MaxPlayers: 5
+  m_MaxPlayersPerConnection: 5
+  m_MinPlayers: 1
   m_LobbyPlayerPrefab: {fileID: 11487034, guid: ad727d7e1462ecc4f83c898ecc501997,
     type: 2}
-  m_GamePlayerPrefab: {fileID: 1804974384151466, guid: 631a669536230a24097e14f38a90f4e0,
+  m_GamePlayerPrefab: {fileID: 1577663559643884, guid: 42e0349cf46485641abf6dc9359d9220,
     type: 2}
   m_LobbyScene: Lobby
   m_PlayScene: ReciclagemSimpleTown
@@ -4461,7 +4461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.00004486247}
   m_SizeDelta: {x: -83, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &22402218
@@ -4885,8 +4885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1039.3477, y: -50}
-  m_SizeDelta: {x: 2078.6953, y: 100}
+  m_AnchoredPosition: {x: 1111.7001, y: -50}
+  m_SizeDelta: {x: 2223.4001, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22434328
 RectTransform:
@@ -5599,7 +5599,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

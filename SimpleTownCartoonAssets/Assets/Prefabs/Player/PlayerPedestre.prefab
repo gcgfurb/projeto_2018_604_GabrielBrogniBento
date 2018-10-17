@@ -1024,7 +1024,6 @@ GameObject:
   - component: {fileID: 114618813346746978}
   - component: {fileID: 195610662139873326}
   - component: {fileID: 114206225319255156}
-  - component: {fileID: 114860775848283410}
   m_Layer: 0
   m_Name: PlayerPedestre
   m_TagString: player
@@ -2708,8 +2707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 250
-  m_StationaryTurnSpeed: 100
+  m_MovingTurnSpeed: 170
+  m_StationaryTurnSpeed: 50
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
@@ -2748,17 +2747,6 @@ MonoBehaviour:
     i15: 224
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114860775848283410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1804974384151466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 363aa828ef5e8c6448bc2cb977d3379c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!124 &124499004261259426
 Behaviour:
   m_ObjectHideFlags: 1

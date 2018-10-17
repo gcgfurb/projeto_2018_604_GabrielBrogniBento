@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
-
-    public int qtdLixo{get;set;}
-
+public class LixoCaminhao : MonoBehaviour {
+    public static float qtd;
 	// Use this for initialization
 	void Start () {
 		

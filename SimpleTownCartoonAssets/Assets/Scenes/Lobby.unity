@@ -273,13 +273,29 @@ Prefab:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 11475086, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
-      propertyPath: m_MinPlayers
-      value: 1
+    - target: {fileID: 178410, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11475086, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
-      propertyPath: m_MaxPlayers
-      value: 5
+    - target: {fileID: 22432700, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 1010.02124
+      objectReference: {fileID: 0}
+    - target: {fileID: 22432700, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 2020.0425
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401550, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000005361021
+      objectReference: {fileID: 0}
+    - target: {fileID: 22401550, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 22249058, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}
+      propertyPath: m_CullTransparentMesh
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0978251ff7b10d4fb954a4b56acd9f0, type: 2}

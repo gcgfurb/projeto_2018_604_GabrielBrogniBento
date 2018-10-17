@@ -20,6 +20,7 @@ namespace Prototype.NetworkLobby
         public Button readyButton;
         public Button waitingPlayerButton;
         public Button removePlayerButton;
+        public Toggle Personagem;
 
         public GameObject localIcone;
         public GameObject remoteIcone;

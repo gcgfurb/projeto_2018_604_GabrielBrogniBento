@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PegaLixo : MonoBehaviour {
+public class LataLixo : MonoBehaviour {
 
-    private Player player;
+    public static float qtdLixo;
 
     public GameObject Lixo;
 
@@ -25,8 +25,8 @@ public class PegaLixo : MonoBehaviour {
         if (col.gameObject.CompareTag("player"))
         {
             Lixo.SetActive(false);
-            player.qtdLixo += 1; 
-            print(player.qtdLixo);
+            qtdLixo++;
+            print(qtdLixo);
         }
     }
 }
