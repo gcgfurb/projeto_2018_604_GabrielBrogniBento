@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class SelecaoPersonagem : NetworkBehaviour {
+
+    Camera desativarCamera;
 
     [SerializeField] ToggleEvent pedestre;
     [SerializeField] ToggleEvent caminhao;
@@ -23,26 +26,39 @@ public class SelecaoPersonagem : NetworkBehaviour {
 	// Use this for initialization
 	void Start () {
         mainCamera = Camera.main.gameObject;
+        desativarCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        selecionaPersonagem();
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    
+    public void selecionaPersonagem()
+    {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
+        if(ePedestre == false)
+        {
+            habilitarCaminhao();
+        }
+        else
+        {
+            habilitarPedestre();
+        }
+    }
 
     public void MudarPersonagem()
     {
         if(ePedestre == true)
         {
-            habilitarCaminhao();
-            desabilitarPedestre();
             ePedestre = false;
+            print("Caminhao");
         }
         else
         {
-            habilitarPedestre();
-            desabilitarCaminhao();
             ePedestre = true;
+            print("Pedestre");
         }
     }
 
@@ -50,25 +66,29 @@ public class SelecaoPersonagem : NetworkBehaviour {
     {
         pedestre.Invoke(true);
         habilitarControlePedestre();
+        desativarCamera.GetComponent<Camera>().enabled = false;
+        //desabilitarCaminhao();
     }
 
     void habilitarCaminhao()
     {
         caminhao.Invoke(true);
         habilitarControleCaminhao();
+        desativarCamera.GetComponent<Camera>().enabled = false;
+        //desabilitarPedestre();
     }
 
-    void desabilitarPedestre()
+    /*void desabilitarPedestre()
     {
         pedestre.Invoke(false);
         desabilitarControlePedestre();
-    }
+    }*/
 
-    void desabilitarCaminhao()
+    /*void desabilitarCaminhao()
     {
         caminhao.Invoke(false);
-        desabilitarControlePedestre();
-    }
+        desabilitarControleCaminhao();
+    }*/
 
     void habilitarControlePedestre()
     {
@@ -77,8 +97,9 @@ public class SelecaoPersonagem : NetworkBehaviour {
 
         compartilhadoPedestre.Invoke(true);
 
-        if (isLocalPlayer)
+        if (isLocalPlayer) { 
             localPedestre.Invoke(true);
+        }
         else
             remotoPedestre.Invoke(true);
     }
@@ -96,7 +117,7 @@ public class SelecaoPersonagem : NetworkBehaviour {
             remotoCaminhao.Invoke(true);
     }
 
-    void desabilitarControlePedestre()
+    /*void desabilitarControlePedestre()
     {
         if (isLocalPlayer)
             mainCamera.SetActive(true);
@@ -107,9 +128,9 @@ public class SelecaoPersonagem : NetworkBehaviour {
             localPedestre.Invoke(false);
         else
             remotoPedestre.Invoke(false);
-    }
+    }*/
 
-    void desabilitarControleCaminhao()
+    /*void desabilitarControleCaminhao()
     {
         if (isLocalPlayer)
             mainCamera.SetActive(true);
@@ -120,5 +141,5 @@ public class SelecaoPersonagem : NetworkBehaviour {
             localCaminhao.Invoke(false);
         else
             remotoCaminhao.Invoke(false);
-    }
+    }*/
 }

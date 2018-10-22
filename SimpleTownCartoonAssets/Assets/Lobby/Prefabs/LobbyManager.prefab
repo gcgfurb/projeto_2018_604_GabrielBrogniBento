@@ -1258,7 +1258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 'SERVER NAME
+  m_Text: 'Nome do servidor
 
 '
 --- !u!114 &11405198
@@ -1415,8 +1415,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11447366}
   m_HandleRect: {fileID: 22495014}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1455,7 +1455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jogar e hostear
+  m_Text: Hostear e jogar
 --- !u!114 &11411062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1488,7 +1488,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: Encontrar uma partida
+  m_Text: Encontre um partida
 --- !u!114 &11411206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: OU
+  m_Text: Ou
 --- !u!114 &11413810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1748,7 +1748,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: Nenhum servidor encontrado
+  m_Text: Nem um servidor encontrado
 --- !u!114 &11418158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1967,7 +1967,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: SLOTS
+  m_Text: Vagas
 --- !u!114 &11428192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2188,7 +2188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: "Cone\xE7\xE3o manual"
+  m_Text: "Conex\xE3o manual"
 --- !u!114 &11440648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2582,7 +2582,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PREVIOUS
+  m_Text: Anterios
 --- !u!114 &11453250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2702,7 +2702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: Proximo
 --- !u!114 &11460916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3176,7 +3176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Servidor Dedicado
+  m_Text: Servidor dedicado
 --- !u!114 &11475086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3261,7 +3261,7 @@ MonoBehaviour:
   m_ShowLobbyGUI: 0
   m_MaxPlayers: 5
   m_MaxPlayersPerConnection: 5
-  m_MinPlayers: 1
+  m_MinPlayers: 0
   m_LobbyPlayerPrefab: {fileID: 11487034, guid: ad727d7e1462ecc4f83c898ecc501997,
     type: 2}
   m_GamePlayerPrefab: {fileID: 1577663559643884, guid: 42e0349cf46485641abf6dc9359d9220,
@@ -3971,7 +3971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nome da partida
+  m_Text: Coloque um nome...
 --- !u!114 &11499846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4461,7 +4461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00004486247}
+  m_AnchoredPosition: {x: 0, y: 0.000007912431}
   m_SizeDelta: {x: -83, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &22402218
@@ -4885,8 +4885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1111.7001, y: -50}
-  m_SizeDelta: {x: 2223.4001, y: 100}
+  m_AnchoredPosition: {x: 1235.5438, y: -50}
+  m_SizeDelta: {x: 2471.0876, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22434328
 RectTransform:
@@ -5599,7 +5599,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.9999999}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

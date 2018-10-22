@@ -8,6 +8,7 @@ TagManager:
   - player
   - pad
   - LixoGrande
+  - PlayerCaminhao
   layers:
   - Default
   - TransparentFX

@@ -230,7 +230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1157687220989942
 GameObject:
   m_ObjectHideFlags: 1
@@ -1149,8 +1149,7 @@ GameObject:
   - component: {fileID: 4224286155128656}
   - component: {fileID: 114530504298820434}
   - component: {fileID: 114413108545062674}
-  - component: {fileID: 114849033249588184}
-  - component: {fileID: 114948206044520572}
+  - component: {fileID: 114495431603052304}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4498,10 +4497,10 @@ BoxCollider:
   m_GameObject: {fileID: 1999914085420236}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.72, y: 0.97, z: 6.48}
+  m_Center: {x: 0, y: 0.77, z: 0}
 --- !u!81 &81223200975335550
 AudioListener:
   m_ObjectHideFlags: 1
@@ -4972,7 +4971,7 @@ MonoBehaviour:
     rightWheel: {fileID: 146352442034697406}
     motor: 0
     steering: 0
-  maxMotorTorque: 350
+  maxMotorTorque: 700
   maxSteeringAngle: 50
 --- !u!114 &114365882594649846
 MonoBehaviour:
@@ -5030,7 +5029,7 @@ MonoBehaviour:
     i14: 146
     i15: 32
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114448726223507266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5050,6 +5049,27 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1.5
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
+--- !u!114 &114495431603052304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577663559643884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!114 &114530504298820434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5109,17 +5129,6 @@ MonoBehaviour:
   localPedestre:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1902078818231908}
-        m_MethodName: SetActive
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 114056374226312760}
         m_MethodName: set_enabled
         m_Mode: 0
@@ -5133,6 +5142,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 114448726223507266}
         m_MethodName: set_enabled
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1902078818231908}
+        m_MethodName: SetActive
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5192,6 +5212,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: ToggleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  ePedestre: 0
 --- !u!114 &114593868239781074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5242,27 +5263,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheel: {fileID: 1900186307590952}
---- !u!114 &114849033249588184
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577663559643884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 0
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!114 &114866198417465622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5299,62 +5299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57632c89a4bfe0f4f891624d7f42a34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114948206044520572
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577663559643884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9703f14298969ff46bba71a64ab65096, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onToggleShared:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: ToggleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  onToggleLocal:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1902078818231908}
-        m_MethodName: SetActive
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 114056374226312760}
-        m_MethodName: set_enabled
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 114448726223507266}
-        m_MethodName: set_enabled
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: ToggleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  onToggleRemote:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: ToggleEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!124 &124029141577932126
 Behaviour:
   m_ObjectHideFlags: 1
@@ -5715,4 +5659,4 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 1
-  m_ObstacleAvoidanceType: 3
+  m_ObstacleAvoidanceType: 4
