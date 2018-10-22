@@ -35,3 +35,6 @@ Comecei a trabalhar no projeto RecliAR, fiz as navMeshes, o controlador do pedes
 Período 15/09/2018 a 19/09/2018
 No dia 15/09: Testei um controlador para o caminhão de lixo;
 No dia 16/09: Terminei o controlador do caminhão para teclado, e comecei a mecher na parte de lobby;
+No dia 17/09: Fiz o Lobby funcinar para SinglePlayer;
+No dia 18/09: Testei outros scripts para funcionar o Multiplayer;
+No dia 19/09: Terminei os testes dos scripts, e voltei para a solucão anterior;
