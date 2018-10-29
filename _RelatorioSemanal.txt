@@ -22,19 +22,23 @@ No dia 26/09: Participei ajudando na Interação;
 No dia 27/09:  Foi definido as atividades a curto prazo a serem feitas;
 No dia 28/09: Participei de uma reunião para avaliar o projeto de outro bolsista para poder definir o rumo do projeto.
 
-Período 01/09/2018 a 05/09/2018
+Período 01/10/2018 a 05/10/2018
 No dia 01/09: Criei um projeto multiplayer para teste para ser demonstrado;
 No dia 02/09: Pesquisei sobre boas praticas de programação na unity;
 No dia 03/09: Melhorei o projeto multiplayer, adicionando funcinalidades de animação, vida sincronizada e implementando algoritimo para seleção de armas em rede;
 No dia 04/09: Arrumei os bugs que o projeto de multiplayer tinha para a apresentação;
 No dia 05/09: Apresentação do projeto multiplayer para a turma de bolsistas.
 
-Período 08/09/2018 a 12/09/2018
+Período 08/10/2018 a 12/10/2018
 Comecei a trabalhar no projeto RecliAR, fiz as navMeshes, o controlador do pedestre, e o spawn de lixos pelo mundo.
 
-Período 15/09/2018 a 19/09/2018
+Período 15/10/2018 a 19/10/2018
 No dia 15/09: Testei um controlador para o caminhão de lixo;
 No dia 16/09: Terminei o controlador do caminhão para teclado, e comecei a mecher na parte de lobby;
 No dia 17/09: Fiz o Lobby funcinar para SinglePlayer;
 No dia 18/09: Testei outros scripts para funcionar o Multiplayer;
 No dia 19/09: Terminei os testes dos scripts, e voltei para a solucão anterior;
+
+
+Período 22/10/2018 a 26/10/2018
+Demonstrei o projeto Recli-AR para o professor, e comecei a utilizar o LeapMotion, achei um exemplo de Hover UI(Menu interativo) que utiliza o Leap e comecei a ver como funciona este programa.
