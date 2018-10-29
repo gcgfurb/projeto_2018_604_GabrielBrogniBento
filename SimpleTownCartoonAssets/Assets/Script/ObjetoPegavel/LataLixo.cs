@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class LataLixo : MonoBehaviour {
+public class LataLixo : NetworkBehaviour {
 
     public static float qtdLixo;
 
@@ -24,9 +25,15 @@ public class LataLixo : MonoBehaviour {
     {
         if (col.gameObject.CompareTag("player"))
         {
-            Lixo.SetActive(false);
-            qtdLixo++;
-            print(qtdLixo);
+            RpcDesativaMesh();
         }
+    }
+
+    [ClientRpc]
+    void RpcDesativaMesh()
+    {
+        Lixo.SetActive(false);
+        qtdLixo++;
+        print(qtdLixo);
     }
 }
