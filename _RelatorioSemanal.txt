@@ -42,3 +42,6 @@ No dia 19/09: Terminei os testes dos scripts, e voltei para a solucão anterior;
 
 Período 22/10/2018 a 26/10/2018
 Demonstrei o projeto Recli-AR para o professor, e comecei a utilizar o LeapMotion, achei um exemplo de Hover UI(Menu interativo) que utiliza o Leap e comecei a ver como funciona este programa.
+
+Período 29/10/2018 a 01/11/2018
+Olhei o novo multiplayer da unity, e baixei o projeto demo deles para olhar como funciona.
