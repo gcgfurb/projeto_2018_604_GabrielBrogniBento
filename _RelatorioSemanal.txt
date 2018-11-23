@@ -45,3 +45,13 @@ Demonstrei o projeto Recli-AR para o professor, e comecei a utilizar o LeapMotio
 
 Período 29/10/2018 a 01/11/2018
 Olhei o novo multiplayer da unity, e baixei o projeto demo deles para olhar como funciona.
+
+Período 05/11/2018 a 09/11/2018
+Comecei a ver como funciona o projeto Hover-Ui-Kit, e a fazer testes para aprender a mexer nele;
+
+Período 12/11/2018 a 14/11/2018
+Comecei integrar o leap motion no projeto de reciclagem, e a fazer o controle do personagem, testei algumas maneiras de movimentacao porem, nem uma se adequou para o que precisava ser feito.
+Conversei com o professor Dalton e vou comecar a fazer compoentes separados com o leap motion;
+
+Período 19/11/2018 a 23/11/2018
+Comecei a fazer um novo projeto de tutorial para manipular o leap motion, terminei os testes, e comecei a fazer com uma matriz generica;
